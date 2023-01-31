@@ -1,6 +1,5 @@
 #pip install pymongo
 import pymongo
-
 import pandas as pd
 import json
 
@@ -8,11 +7,7 @@ import json
 
 client = pymongo.MongoClient("mongodb+srv://sup:Sup2023@cluster0.klxaggu.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
-
-
-
 data_file_path = (r"C:\Users\supraja.yarramsetti\Desktop\medexp\Predicting-MedExp-using-ml\insurance.csv")
-
 database_name = "insurence"
 collection_name = 'insurence_project'
 
